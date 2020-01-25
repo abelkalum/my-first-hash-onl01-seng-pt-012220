@@ -7,11 +7,6 @@ end
 
 
 def shipping_manifest
-  the_manifest = {
-  "whale bone corset" => 5,
-  "porcelain vase" => 2,
-  "oil painting" => 3
-}
   match_array = ["whale bone corsets", "oil paintings", "porcelain vases"]
   return hash[match_array]
 end
