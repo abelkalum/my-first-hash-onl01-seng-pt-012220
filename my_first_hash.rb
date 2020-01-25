@@ -12,10 +12,9 @@ def shipping_manifest
   "porcelain vase" => 2,
   "oil painting" => 3
 }
-  match_array = ["whale bone corsets", "oil paintings", "porcelain vases"]
- end
-  return hash[match_array]
+  puts the_manifest = ["whale bone corsets", "oil paintings", "porcelain vases"]
 end
+
 
 def retrieval
   shipping_manifest = {
