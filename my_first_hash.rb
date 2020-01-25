@@ -12,7 +12,8 @@ def shipping_manifest
   "porcelain vase" => 2,
   "oil painting" => 3
 }
-  return the_manifest
+  match_array = ["whale bone corsets", "oil paintings", "porcelain vases"]
+  return hash[match_array]
 end
 
 def retrieval
