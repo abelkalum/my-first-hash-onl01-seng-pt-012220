@@ -13,7 +13,7 @@ def shipping_manifest
   "oil painting" => 3
 }
   match_array = ["whale bone corsets", "oil paintings", "porcelain vases"]
-end
+ end
   return hash[match_array]
 end
 
