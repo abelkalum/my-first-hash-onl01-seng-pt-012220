@@ -12,7 +12,7 @@ def shipping_manifest
   "porcelain vase" => 2,
   "oil painting" => 3
 }
-  puts  the_manifest
+  return the_manifest
 end
 
 def retrieval
