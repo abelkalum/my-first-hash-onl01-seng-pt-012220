@@ -30,6 +30,6 @@ def adding
                   "porcelain vases" => 2, 
                   "oil paintings" => 3, 
                  }
-  .merge! :"muskets" => 2, :"gun powder" => 4
+  shipping_manifest.merge! :"muskets" => 2, :"gun powder" => 4
   puts shipping_manifest
 end
