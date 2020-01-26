@@ -31,6 +31,5 @@ def adding
                   "oil paintings" => 3, 
                  }
   hash.merge! :"muskets" => 2, :"gun powder" => 4
-  puts hash
 
 end
